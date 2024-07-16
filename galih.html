@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Small Business Tools</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            color: #fff;
+            background-image: url("xavira.jpg");
+            background-position: center;
+            background-size: 1500px;
+        }
+        header {
+            background-color: #1a202c;
+            padding: 20px;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: flex-end;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            margin-left: 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+            font-weight: bolder;
+        }
+
+        .hero {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 90vh;           
+            text-align: center;
+            position: relative;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(26, 32, 44, 0.8);
+        }
+
+        .hero .content {
+            position: relative;
+            z-index: 1;
+        }
+
+        .hero h1 {
+            font-size: 2.9rem;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 1.1rem;
+            margin-bottom: 50px;
+        }
+
+        .buttons {
+            display: flex;
+            justify-content: center;
+        }
+
+        button {
+            padding: 15px 30px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1rem;
+            font-weight: bold;
+        }
+
+        .demo {
+            display: inline-block;
+            padding: 10px 2%;
+            font-size: 20px;
+            color: white;
+            background-color: #064e8d;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .signup {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 16px;
+            color: white;
+            background-color: #161718;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            opacity: 0.9;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Biodata</a></li>
+                <li><a href="#">Prestasi</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+    <section class="hero">
+        <div class="content">
+            <h1>Xaviera Putri</h1>
+            <p>Xaviera Putri merupakan lulusan Korea Advanced Institute of Science and Technology (KAIST) Korea Selatan.<br> Tak tanggung-tanggung, 
+                ia berhasil menyelesaikan kuliahnya di universitas bergengsi itu dengan IPK 3,67.</p>
+            <div class="buttons">
+                <a href="https://wa.me/+6281280402854" class="demo">Xaviera number</a>
+                
+            </div>
+        </div>
+    </section>
+</body>
+</html>
